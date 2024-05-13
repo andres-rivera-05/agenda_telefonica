@@ -12,6 +12,12 @@ const DetalleContacto = ({ route }) => {
       {/* Aquí puedes colocar el icono si es necesario */}
       <Text style={styles.contactName}>{nombre}</Text>
       <Text style={styles.contactName}>{contacto}</Text>
+      <Image
+        style={{ width: 350, height: 100 }}
+        source={{
+          uri: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/CEUTEC_HONDURAS.png/1024px-CEUTEC_HONDURAS.png",
+        }}
+      ></Image>
     </View>
   );
 };
