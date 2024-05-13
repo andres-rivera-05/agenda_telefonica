@@ -1,4 +1,3 @@
-// Agenda.tsx
 import React, { useState } from 'react';
 import {
   View,
@@ -47,7 +46,7 @@ const Agenda = () => {
   };
 
   const handleContactoPress = (elemento: AgendaComponent) => {
-    navigation.navigate("DetalleContacto", {
+    navigation.navigate("Detalles", {
       contacto: elemento.contacto,
       nombre: elemento.nombre
     });
